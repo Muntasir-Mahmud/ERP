@@ -1,0 +1,19 @@
+[tool.poetry]
+name = "erp-backend"
+version = "0.1.0"
+description = "An ERP system for Siam Paper House"
+authors = ["Muntasir-Mahmud <m.siyam529@gmail.com>"]
+license = "MIT"
+readme = "README.md"
+packages = [{include = "erp_backend"}]
+
+[tool.poetry.dependencies]
+python = "^3.11"
+django = "^4.2.1"
+djangorestframework = "^3.14.0"
+django-filter = "^23.2"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
